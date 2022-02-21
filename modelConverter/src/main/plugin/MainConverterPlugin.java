@@ -22,7 +22,8 @@ public class MainConverterPlugin implements IPluginActionDelegate {
 		
 		String fileName = Options.specFilename;
 		if (fileName != null) {
-			Generators.fromUSEtoUML(fileName, "C:/Users/julia");
+			//Generators.fromUSEtoUML(fileName, "C:/Users/julia");
+			System.out.println("Filename: " + fileName);
 		}
 		
 	}

@@ -13,7 +13,7 @@
 		<isset property="env.BUILD_NUMBER"/>
 	</condition>
 	
-	<property name="compiler" value="1.7" />
+	<property name="compiler" value="8" />
 	<!-- DO NOT ENABLE DEBUG HERE!
 	     To enable debug LOCALLY, run ant with argument '-Djavac.debug=true' -->
 	<property name="javac.debug" value="off" />
@@ -22,6 +22,7 @@
 	<property name="use.classes" value="${use.path}/build/classes" />
 	<property name="plugin.lib" value="lib" />
 	<property name="filename" value="XMIConverter.jar" />
+	<property name="utilities.dir" value="C:\Users\julia\Documents\eclipse\plugins" />
 
 	<path id="classpath">
 		<!--<fileset dir="${plugin.lib}" includes="*.jar" />-->
@@ -29,6 +30,9 @@
 		<!-- <pathelement location="${use.classes}"/> -->
 		<fileset dir="lib">
 			<include name="**/*.jar"/>
+		</fileset>
+		<fileset dir="${utilities.dir}">
+		       <include name="*.jar"/>
 		</fileset>
 	</path>
 
@@ -72,9 +76,9 @@
 			<zipfileset dir="dist" filemode="755">
 				<include name="${filename}" />
 			</zipfileset>
-			<zipfileset dir="doc" filemode="755">
+			<!--<zipfileset dir="doc" filemode="755">
     			<include name="Usage.pdf" />
-			</zipfileset>
+			</zipfileset>-->
     	</zip>
     </target>
 	

@@ -10,5 +10,6 @@
 	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
 	<classpathentry kind="lib" path="lib/use.jar" sourcepath="lib/use.jar"/>
 	<classpathentry kind="lib" path="lib/use-runtime.jar"/>
+	<classpathentry kind="lib" path="lib/modelConverter.use_language.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
