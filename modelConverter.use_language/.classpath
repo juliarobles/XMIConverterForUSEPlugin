@@ -3,7 +3,36 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="src-gen"/>
 	<classpathentry kind="src" path="xtend-gen"/>
-	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+	<classpathentry kind="src" path="xtext-modified"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="lib/com.google.guava_21.0.0.v20170206-1425.jar"/>
+	<classpathentry kind="lib" path="lib/com.google.inject_3.0.0.v201312141243.jar"/>
+	<classpathentry kind="lib" path="lib/com.ibm.icu_62.1.0.v20180727-1652.jar"/>
+	<classpathentry kind="lib" path="lib/javax.inject_1.0.0.v20091030.jar"/>
+	<classpathentry kind="lib" path="lib/org.apache.commons.cli_1.2.0.v201404270220.jar"/>
+	<classpathentry kind="lib" path="lib/org.apache.log4j_1.2.15.v201012070815.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.core.contenttype_3.7.100.v20180817-1401.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.core.jobs_3.10.100.v20180817-1215.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.core.runtime.source_3.15.0.v20180817-1401.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.emf.common_2.15.0.v20180723-1316.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.emf.ecore_2.15.0.v20180722-1159.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.emf.ecore.xmi_2.15.0.v20180706-1146.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.emf.mwe.core_1.3.21.201705291011.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.emf.mwe.utils_1.3.21.201705291011.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.emf.mwe2.runtime_2.9.1.201705291011.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.equinox.app_1.3.600.v20180827-1235.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.equinox.common_3.10.100.v20180827-1235.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.equinox.preferences_3.7.200.v20180827-1235.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.equinox.registry_3.8.100.v20180827-1235.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.osgi_3.13.100.v20180827-1536.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.osgi.compatibility.state_1.1.200.v20180827-1536.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.xtend_2.2.0.v201605260315.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.xtend.lib_2.15.0.v20180916-1130.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.xtend.lib.macro_2.15.0.v20180916-1130.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.xtend.typesystem.emf_2.2.0.v201605260315.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.xtext.util_2.15.0.v20180916-0722.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.xtext.xbase.lib_2.15.0.v20180916-1130.jar"/>
+	<classpathentry kind="lib" path="lib/org.objectweb.asm_6.2.1.v20180823-1831.jar"/>
+	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

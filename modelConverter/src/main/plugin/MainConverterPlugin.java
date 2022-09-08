@@ -1,5 +1,6 @@
 package main.plugin;
 
+import org.tzi.use.gui.main.MainWindow;
 import org.tzi.use.api.UseSystemApi;
 import org.tzi.use.runtime.gui.IPluginAction;
 import org.tzi.use.runtime.gui.IPluginActionDelegate;
@@ -19,11 +20,13 @@ public class MainConverterPlugin implements IPluginActionDelegate {
 		// TODO Auto-generated method stub
 		Session curSession = pluginAction.getSession();
 		MSystem curSystem = curSession.system();
+		MainWindow curMainWindow = pluginAction.getParent();
 		
 		String fileName = Options.specFilename;
 		if (fileName != null) {
 			//Generators.fromUSEtoUML(fileName, "C:/Users/julia");
 			System.out.println("Filename: " + fileName);
+			curMainWindow.logWriter().println("cannot use kodkod plugin");
 		}
 		
 	}
